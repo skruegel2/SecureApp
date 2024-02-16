@@ -1,0 +1,36 @@
+2024-02-16 16:04:32,263 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWEBFF.tmp"
+2024-02-16 16:04:32,266 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWEBFF.tmp"
+2024-02-16 16:04:32,267 - INFO : Exit report created.
+2024-02-16 16:04:32,267 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-16 16:04:32,267 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'getcaps', '--projecttype', 'App', '--deviceidentifier', 'STM32H743ZI', '--deviceproperties', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWEBFF.tmp', '--language', 'ENG']
+2024-02-16 16:04:32,268 - INFO : App version is 0.0.0.0
+2024-02-16 16:04:32,268 - INFO : Running: "_add_liccheck_and_run"
+2024-02-16 16:04:32,277 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-16 16:04:32,277 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-16 16:04:32,278 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-16 16:04:32,279 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-16 16:04:32,280 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-16 16:04:32,281 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-16 16:04:32,281 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-16 16:04:32,282 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-16 16:04:32,282 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-16 16:04:32,284 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-16 16:04:32,284 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-16 16:04:32,285 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-16 16:04:32,286 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-16 16:04:32,288 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-16 16:04:32,288 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-16 16:04:32,289 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-16 16:04:32,289 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-16 16:04:32,290 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-16 16:04:32,290 - INFO : Obtained a licence for getcaps
+2024-02-16 16:04:32,290 - INFO : Product is licensed or no licence required
+2024-02-16 16:04:32,291 - WARNING : ok_but_security_context_is_invalid
+2024-02-16 16:04:32,291 - INFO : Project type is APP
+2024-02-16 16:04:32,291 - INFO : Device type is STM32H743ZI
+2024-02-16 16:04:32,292 - INFO : Load capabilities...
+2024-02-16 16:04:32,292 - INFO : Retrieve capabilities...
+2024-02-16 16:04:32,293 - INFO : Loaded capabilities ok!
+2024-02-16 16:04:33,948 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWEBFF.tmp"
+2024-02-16 16:04:33,950 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWEBFF.tmp"
+2024-02-16 16:04:33,950 - INFO : Exit report created.

@@ -30,3 +30,79 @@
 *.exe
 *.out
 *.app
+
+# Compiled Files
+*.a
+*.app
+*.bin
+*.d
+*.dep
+*.dll
+*.dylib
+*.elf
+*.exe
+*.gch
+*.hex
+*.la
+*.lai
+*.lib
+*.lo
+*.map
+*.o
+*.obj
+*.out
+*.pch
+*.pyc
+*.sim
+*.slo
+*.so
+
+# IAR
+*.bak
+*.log
+**/settings/*.crun
+**/settings/*.cspy
+**/settings/*.cspy.*
+**/settings/*.dbgdt
+**/settings/*.dni
+**/settings/*.dnx
+**/settings/*.jlink
+**/settings/*.wsdt
+**/settings/*.wspos
+**/settings/*.xcl
+
+# IAR Debug
+**/BrowseInfo/
+**/C-STAT/
+**/Exe/
+**/List/
+**/Obj/
+*.ninja_deps
+*.ninja_log
+build_ide.ninja
+
+# Visual Studio Code
+*.code-workspace
+.history/
+.vscode/
+.vscode-ctags
+.vs
+*.vsix
+
+# Fortran Module Files
+*.mod
+*.smod
+
+# OS Garbage
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Other Files To Ignore
+*.pbd
+*.pbd.*
+*.pbi
+*.pbi.*
+*.bat
+*.ps1
+*.user
