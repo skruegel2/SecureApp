@@ -1,0 +1,13 @@
+2024-02-16 16:19:18,625 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW74DB.tmp"
+2024-02-16 16:19:18,627 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW74DB.tmp"
+2024-02-16 16:19:18,628 - INFO : Exit report created.
+2024-02-16 16:19:18,628 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-16 16:19:18,629 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'checkswvalidity', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\SecureTest_profile-default.xml', '--output', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW74DC.tmp', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW74DB.tmp', '--language', 'ENG']
+2024-02-16 16:19:18,629 - INFO : App version is 0.0.0.0
+2024-02-16 16:19:18,630 - INFO : Running: "_add_liccheck_and_run"
+2024-02-16 16:19:18,630 - INFO : Secworld candidate: C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_profile-default.xml
+2024-02-16 16:19:18,645 - INFO : Validating XML against schema
+2024-02-16 16:19:18,686 - INFO : Verifying all certificates are signed correctly...
+2024-02-16 16:19:18,720 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW74DB.tmp"
+2024-02-16 16:19:18,722 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW74DB.tmp"
+2024-02-16 16:19:18,723 - INFO : Exit report created.

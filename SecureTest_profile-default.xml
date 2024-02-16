@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<stzProfileConfig>
+  <version>1</version>
+  <profileName>default</profileName>
+  <template>SecureTest_template.xml</template>
+</stzProfileConfig>

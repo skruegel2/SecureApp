@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<stzTemplateConfig>
+  <version>2_01</version>
+  <config>
+    <securityWorldId>3a4d561cf67c478faf480759fef58f8b</securityWorldId>
+    <deviceAliasId>STM32H743ZI</deviceAliasId>
+  </config>
+  <featureFlagList>
+    <fragmentedSwup>true</fragmentedSwup>
+  </featureFlagList>
+  <sbm>
+    <sbmGeneral>
+      <sbmBootIntegrity>5</sbmBootIntegrity>
+      <sbmRecordBootTime>false</sbmRecordBootTime>
+      <sbmExtendedSWUPErrors>false</sbmExtendedSWUPErrors>
+    </sbmGeneral>
+    <sbmOemApi>
+      <sbmFailureToLaunchApi>false</sbmFailureToLaunchApi>
+      <sbmBootStatusTracking>false</sbmBootStatusTracking>
+      <sbmUpdateLogging>false</sbmUpdateLogging>
+      <sbmReportSBMSizes>false</sbmReportSBMSizes>
+    </sbmOemApi>
+    <sbmLogging>
+      <sbmLogVerbosity>0</sbmLogVerbosity>
+      <sbmEnableLogBootStatus>false</sbmEnableLogBootStatus>
+      <sbmEnableLogBootTime>false</sbmEnableLogBootTime>
+      <sbmEnableLogSizes>false</sbmEnableLogSizes>
+      <sbmEnableLogUpdateStatus>false</sbmEnableLogUpdateStatus>
+      <sbmEnableLogDatastore>false</sbmEnableLogDatastore>
+      <sbmEnableLogOEM>false</sbmEnableLogOEM>
+    </sbmLogging>
+  </sbm>
+  <device name="STM32H753ZI" architecture="arm" manufacturer="ST">
+    <execSlotStart>0x8040000</execSlotStart>
+    <execSlotEnd>0x80fffff</execSlotEnd>
+    <updateSlotStart>0x8100000</updateSlotStart>
+    <updateSlotEnd>0x81dffff</updateSlotEnd>
+    <sfiSlotStart>0x81e0000</sfiSlotStart>
+    <sfiSlotEnd>0x81fffff</sfiSlotEnd>
+    <supportsExternalFlash>true</supportsExternalFlash>
+    <storeUpdateInExternalFlash>false</storeUpdateInExternalFlash>
+    <sbmStartAddress>0x8000000</sbmStartAddress>
+    <sbmEndAddress>0x801ffff</sbmEndAddress>
+    <secapiAccessWindowStart>0x80002c0</secapiAccessWindowStart>
+    <secapiAccessWindowEnd>0x80002c3</secapiAccessWindowEnd>
+    <wordSize>32</wordSize>
+    <endian>LITTLE</endian>
+    <recLineSize>12</recLineSize>
+    <lenpad>1234</lenpad>
+    <offset>664</offset>
+    <flashCounterSize>1234</flashCounterSize>
+    <flashWriteSize>32</flashWriteSize>
+    <flashWriteSizeExternal>1234</flashWriteSizeExternal>
+    <flashEraseValue>255</flashEraseValue>
+    <flashNoChangeValue>0</flashNoChangeValue>
+    <deviceIdFieldLengthBits>96</deviceIdFieldLengthBits>
+    <muhStartAddress>0x8020000</muhStartAddress>
+    <muhEndAddress>0x803ffff</muhEndAddress>
+    <flags>
+      <flag name="USE_HAL_DRIVER" value="1"/>
+      <flag name="STM32H753xx" value="1"/>
+      <flag name="USE_IOEXPANDER" value="1"/>
+      <flag name="SBM_REPORT_SBM_VERSION" value="1"/>
+      <flag name="SBM_REPORT_SBM_BUILD_TIME" value="1"/>
+      <flag name="SBM_INCLUDE_CONSOLE" value="1"/>
+    </flags>
+    <sbmPersistentRamStartAddress>0x2001f800</sbmPersistentRamStartAddress>
+    <sbmPersistentRamEndAddress>0x2001ffff</sbmPersistentRamEndAddress>
+    <applicationRamStartAddress>0x20000000</applicationRamStartAddress>
+    <applicationRamEndAddress>0x2001f7ff</applicationRamEndAddress>
+    <memoryMappedExternalFlash>false</memoryMappedExternalFlash>
+    <sbmApplicationInterfaceMethod>STZ_INDIRECTION</sbmApplicationInterfaceMethod>
+    <firewallSupported>false</firewallSupported>
+    <firewallEditable>false</firewallEditable>
+    <firewallDefault>false</firewallDefault>
+    <ramPropagationSupported>true</ramPropagationSupported>
+    <encryptionOfProvisionedDataSupported>false</encryptionOfProvisionedDataSupported>
+    <secureInstallMethod>ST_SFI</secureInstallMethod>
+    <secureInstallConfigProduction>0x1416aaf8</secureInstallConfigProduction>
+    <validationRuleList>
+      <memoryRule name="sbm_in_flash_range"/>
+      <memoryRule name="exec_slot_in_flash_range"/>
+      <memoryRule name="muh_in_flash_range"/>
+      <memoryRule name="secapi_access_window_in_flash_range"/>
+      <memoryRule name="update_slot_in_flash_range"/>
+      <memoryRule name="check_flash_alignment"/>
+      <memoryRule name="check_no_overlap_between_stz_std_regions"/>
+      <memoryRule name="sfi_in_flash_range">
+        <parameter key="ui_msg" value="SFI window must be within flash"/>
+        <parameter key="enable_if" value="//Identity/SecureProvisioning/SecureInstallActive"/>
+      </memoryRule>
+      <memoryRule name="check_address_value">
+        <parameter key="ui_msg" value="SFI window must end at flash end"/>
+        <parameter key="address" value="//MemoryMap/MemoryMappedFlash/SfiSlotEndAddress"/>
+        <parameter key="enable_if" value="//Identity/SecureProvisioning/SecureInstallActive"/>
+        <parameter key="value" value="0x081fffff"/>
+      </memoryRule>
+      <memoryRule name="check_logic">
+        <parameter key="ui_msg" value="If secure install is supported then SecureInstallConfigProduction must be defined"/>
+        <parameter key="fail_on" value="true"/>
+        <parameter key="check_true_0" value="//Device/isSecureInstallSupported"/>
+        <parameter key="check_false_1" value="//Device/SecureInstallConfigProduction"/>
+      </memoryRule>
+    </validationRuleList>
+  </device>
+  <security>
+    <certificatesList/>
+    <identityKeysList>
+		</identityKeysList>
+  </security>
+  <securitydefaults>
+    <organisation>Not Applicable</organisation>
+    <organisationUnit>Not Applicable</organisationUnit>
+    <country>SE</country>
+    <locality>Not Applicable</locality>
+    <state>Not Applicable</state>
+  </securitydefaults>
+  <identity>
+    <secureProvisioning>
+      <secureInstallEditable>true</secureInstallEditable>
+      <secureInstallActive>false</secureInstallActive>
+    </secureProvisioning>
+    <sbmSecurity>
+      <deviceCertificateType>NO_UNIQUE_DEVICE_CERTS</deviceCertificateType>
+      <provisionDevicePrivKey>true</provisionDevicePrivKey>
+      <sbmLockDownEnableDebugPort>ENABLED</sbmLockDownEnableDebugPort>
+      <sbmLockDownMakePermanent>TEMP</sbmLockDownMakePermanent>
+      <protectionOfProvisionedData>none</protectionOfProvisionedData>
+      <protectProvisionedDataRandomUint32PerSecurityContext>1852020373</protectProvisionedDataRandomUint32PerSecurityContext>
+      <firewallActive>false</firewallActive>
+      <forwardHardfaults>false</forwardHardfaults>
+    </sbmSecurity>
+  </identity>
+  <update>
+    <updateSettings>
+      <updateSlotRequired>true</updateSlotRequired>
+      <sbmEnableLoader>false</sbmEnableLoader>
+      <updateMechanism>FULL</updateMechanism>
+      <nrOfGroupUpdateKeys>1</nrOfGroupUpdateKeys>
+      <nrOfDeviceUpdateKeys>0</nrOfDeviceUpdateKeys>
+      <sbmVersionCheck>GTR_EQU</sbmVersionCheck>
+    </updateSettings>
+    <updateKeysList>
+      <groupKeysList>
+        <groupKey id="ID-0001" name="Group Key ID-0001" algorithm="ECC_SECP256R1" privacy="BOTH" purpose="GROUP">
+          <dataSource>FILE</dataSource>
+          <pubValue>profile-default/ID-0001_group_update_public_key_file.pem</pubValue>
+          <privValue>profile-default/ID-0001_group_update_private_key_file.pem</privValue>
+        </groupKey>
+      </groupKeysList>
+      <updateKey id="ID-0002" name="OEM Validation Key" algorithm="ECC_SECP256R1" privacy="BOTH" purpose="OEM_VALIDATION">
+        <dataSource>FILE</dataSource>
+        <pubValue>profile-default/oem_validation_public_key_file.pem</pubValue>
+        <privValue>profile-default/oem_validation_private_key_file.pem</privValue>
+      </updateKey>
+      <updateKey id="ID-0003" name="OEM Transportation Key" algorithm="ECC_SECP256R1" privacy="BOTH" purpose="OEM_TRANSPORTATION">
+        <dataSource>FILE</dataSource>
+        <pubValue>profile-default/oem_transportation_public_key_file.pem</pubValue>
+        <privValue>profile-default/oem_transportation_private_key_file.pem</privValue>
+      </updateKey>
+      <updateKey id="ID-0004" name="Powerup Integrity Key" algorithm="ECC_SECP256R1" privacy="BOTH" purpose="INTEGRITY">
+        <dataSource>FILE</dataSource>
+        <pubValue>profile-default/powerup_integrity_public_key_file.pem</pubValue>
+        <privValue>profile-default/powerup_integrity_private_key_file.pem</privValue>
+      </updateKey>
+    </updateKeysList>
+  </update>
+  <memoryMap>
+    <memoryMappedFlash>
+      <sbmStartAddress>0x8000000</sbmStartAddress>
+      <sbmEndAddress>0x801ffff</sbmEndAddress>
+      <execSlotStartAddress>0x8040000</execSlotStartAddress>
+      <execSlotEndAddress>0x80fffff</execSlotEndAddress>
+      <updateSlotStartAddress>0x8100000</updateSlotStartAddress>
+      <updateSlotEndAddress>0x81dffff</updateSlotEndAddress>
+      <sfiSlotStartAddress>0x81e0000</sfiSlotStartAddress>
+      <sfiSlotEndAddress>0x81fffff</sfiSlotEndAddress>
+      <muhStartAddress>0x8020000</muhStartAddress>
+      <muhEndAddress>0x803ffff</muhEndAddress>
+      <secapiAccessWindowStartAddress>0x80002c0</secapiAccessWindowStartAddress>
+      <secapiAccessWindowEndAddress>0x80002c3</secapiAccessWindowEndAddress>
+      <updateSlot>
+        <id>0</id>
+        <name>Software Update Area</name>
+        <startAddress>0x8100000</startAddress>
+        <endAddress>0x81dffff</endAddress>
+        <memoryDeviceId>0</memoryDeviceId>
+      </updateSlot>
+    </memoryMappedFlash>
+    <indirectAccessedFlash/>
+    <ramMemoryMap>
+      <sbmPersistentRamStartAddress>0x2001f800</sbmPersistentRamStartAddress>
+      <sbmPersistentRamEndAddress>0x2001ffff</sbmPersistentRamEndAddress>
+      <applicationRamStartAddress>0x20000000</applicationRamStartAddress>
+      <applicationRamEndAddress>0x2001f7ff</applicationRamEndAddress>
+    </ramMemoryMap>
+  </memoryMap>
+  <cloudProvider/>
+  <systemOnChipDefaultMemoryMap>
+    <memory name="DTCM" type="RAM">
+      <property name="startAddress">0x20000000</property>
+      <property name="endAddress">0x2001ffff</property>
+    </memory>
+    <memory name="AXI_SRAM" type="RAM">
+      <property name="startAddress">0x24000000</property>
+      <property name="endAddress">0x2407ffff</property>
+    </memory>
+    <memory name="RAM1" type="RAM">
+      <property name="startAddress">0x30000000</property>
+      <property name="endAddress">0x3001ffff</property>
+    </memory>
+    <memory name="RAM2" type="RAM">
+      <property name="startAddress">0x30020000</property>
+      <property name="endAddress">0x3003ffff</property>
+    </memory>
+    <memory name="RAM3" type="RAM">
+      <property name="startAddress">0x30040000</property>
+      <property name="endAddress">0x30047fff</property>
+    </memory>
+    <memory name="RAM4" type="RAM">
+      <property name="startAddress">0x38000000</property>
+      <property name="endAddress">0x3800ffff</property>
+    </memory>
+    <memory name="BACKUP_RAM" type="RAM">
+      <property name="startAddress">0x38800000</property>
+      <property name="endAddress">0x38800fff</property>
+    </memory>
+    <memory name="Flash Bank 0" type="flash">
+      <property name="startAddress">0x08000000</property>
+      <property name="endAddress">0x080fffff</property>
+      <property name="blockSize" count="8">0x20000</property>
+    </memory>
+    <memory name="Flash Bank 1" type="flash">
+      <property name="startAddress">0x08100000</property>
+      <property name="endAddress">0x081fffff</property>
+      <property name="blockSize" count="8">0x20000</property>
+    </memory>
+  </systemOnChipDefaultMemoryMap>
+  <vendorProvisioningKey/>
+  <hardware>
+    <memoryMappedFlash>
+      <memory>
+        <id>0</id>
+        <name>Internal Flash</name>
+        <type>MEMORY_MAPPED</type>
+        <regionList>
+          <region>
+            <startAddress>0x08000000</startAddress>
+            <endAddress>0x080fffff</endAddress>
+            <writeBlockSize>0x20</writeBlockSize>
+            <eraseBlockSize>0x20000</eraseBlockSize>
+          </region>
+          <region>
+            <startAddress>0x08100000</startAddress>
+            <endAddress>0x081fffff</endAddress>
+            <writeBlockSize>0x20</writeBlockSize>
+            <eraseBlockSize>0x20000</eraseBlockSize>
+          </region>
+        </regionList>
+        <eraseByteValue>0xff</eraseByteValue>
+        <removable>false</removable>
+      </memory>
+    </memoryMappedFlash>
+    <indirectAccessedFlash/>
+  </hardware>
+</stzTemplateConfig>

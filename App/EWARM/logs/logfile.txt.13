@@ -1,0 +1,86 @@
+2024-02-16 16:16:42,004 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\SecureApp\\SecureTest_profile-default.xml
+2024-02-16 16:16:42,004 - INFO : Attempt to load security context configuration
+2024-02-16 16:16:42,005 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\SecureApp\\SecureTest_profile-default.xml
+2024-02-16 16:16:42,019 - INFO : Validating XML against schema
+2024-02-16 16:16:42,055 - INFO : Verifying all certificates are signed correctly...
+2024-02-16 16:16:42,088 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW13A6.tmp"
+2024-02-16 16:16:42,090 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW13A6.tmp"
+2024-02-16 16:16:42,090 - INFO : Exit report created.
+2024-02-16 16:16:42,091 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-16 16:16:42,091 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'sbmgenproj', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\SecureTest_profile-default.xml', '--output', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\sbm_oneshot.ipcf', '--outputdefs', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\sbm.ipcf', '--folsrc', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\sbmroot\\\\sbm', '--devices', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--sbm-project-directory', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW13A6.tmp', '--language', 'ENG']
+2024-02-16 16:16:42,092 - INFO : App version is 0.0.0.0
+2024-02-16 16:16:42,092 - INFO : Running: "_add_liccheck_and_run"
+2024-02-16 16:16:42,093 - INFO : Output Project Connection: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm_oneshot.ipcf
+2024-02-16 16:16:42,093 - INFO : SBM Source folder: C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\stz\sbmroot\sbm
+2024-02-16 16:16:42,101 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-16 16:16:42,102 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-16 16:16:42,102 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-16 16:16:42,104 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-16 16:16:42,105 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-16 16:16:42,106 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-16 16:16:42,106 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-16 16:16:42,107 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-16 16:16:42,107 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-16 16:16:42,112 - INFO : Obtained licence
+2024-02-16 16:16:42,113 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-16 16:16:42,114 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-16 16:16:42,114 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-16 16:16:42,115 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-16 16:16:42,116 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-16 16:16:42,117 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-16 16:16:42,117 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-16 16:16:42,118 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-16 16:16:42,118 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-16 16:16:42,119 - INFO : Obtained licence
+2024-02-16 16:16:42,120 - INFO : Obtained a licence for sbmgenproj
+2024-02-16 16:16:42,120 - INFO : Product is licensed or no licence required
+2024-02-16 16:16:42,121 - INFO : Reading Devices XML...
+2024-02-16 16:16:42,350 - INFO : Generating project connection
+2024-02-16 16:16:42,351 - INFO : Macros: {'SBM_ADDRESS': 134217728,
+ 'SBM_APPLICATION_INTERFACE_METHOD_ARM_TRUSTZONE': 0,
+ 'SBM_APPLICATION_INTERFACE_METHOD_STZ_INDIRECTION': 1,
+ 'SBM_BOOT_INTEGRITY_CHECKING': 5,
+ 'SBM_BOOT_STATUS_TRACKING': 0,
+ 'SBM_ENABLE_LOG_BOOT_STATUS': 0,
+ 'SBM_ENABLE_LOG_BOOT_TIME': 0,
+ 'SBM_ENABLE_LOG_DATASTORE': 0,
+ 'SBM_ENABLE_LOG_OEM': 0,
+ 'SBM_ENABLE_LOG_SIZES': 0,
+ 'SBM_ENABLE_LOG_UPDATE_STATUS': 0,
+ 'SBM_END_ADDRESS': 134348799,
+ 'SBM_EXECUTABLE_ADDRESS': 134479872,
+ 'SBM_EXECUTABLE_END_ADDRESS': 135266303,
+ 'SBM_EXTENDED_SWUP_ERRORS': 0,
+ 'SBM_EXT_UPDATE_FLASH_ENABLE': 0,
+ 'SBM_FAIL_LAUNCH_API': 0,
+ 'SBM_FORWARD_HARDFAULTS': 0,
+ 'SBM_LD_DELAYED_DEBUG_PERM': 0,
+ 'SBM_LD_DELAYED_DEBUG_TEMP': 0,
+ 'SBM_LD_IMMEDIATE_DEBUG_PERM': 0,
+ 'SBM_LD_IMMEDIATE_DEBUG_TEMP': 0,
+ 'SBM_LOG_VERBOSITY': 0,
+ 'SBM_MUH_ADDRESS': 134348800,
+ 'SBM_MUH_END_ADDRESS': 134479871,
+ 'SBM_PPD_4BYTE_SECURITY_CONTEXT_SEED': '"\\x95\\x96\\x63\\x6e"',
+ 'SBM_PPD_ENABLE': 0,
+ 'SBM_PROVISIONED_DATA_ENCRYPTED': 0,
+ 'SBM_RECORD_BOOT_TIME': 0,
+ 'SBM_REPORT_SBM_SIZES': 0,
+ 'SBM_SECAPI_ACCESS_WINDOW_END': 134218435,
+ 'SBM_SECAPI_ACCESS_WINDOW_START': 134218432,
+ 'SBM_SUPPORT_ENCRYPTED_UPDATES': 1,
+ 'SBM_TZ_FIREWALL_ACTIVE': 0,
+ 'SBM_UPDATE_LOGGING': 0,
+ 'SBM_VERSION_CHECKING': 2}
+2024-02-16 16:16:42,368 - INFO : Case sensitive file checking: False
+2024-02-16 16:16:42,368 - INFO : Setting relative file destination folder...
+2024-02-16 16:16:42,371 - INFO : Scanning disk and building project structure...
+2024-02-16 16:16:42,372 - INFO : Scanning root folder structures...
+2024-02-16 16:16:42,700 - INFO : Writing output
+2024-02-16 16:16:42,700 - INFO : Writing XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm_oneshot.ipcf"
+2024-02-16 16:16:42,707 - INFO : Successfully wrote XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm_oneshot.ipcf"
+2024-02-16 16:16:42,707 - INFO : Writing XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm.ipcf"
+2024-02-16 16:16:42,710 - INFO : Successfully wrote XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm.ipcf"
+2024-02-16 16:16:42,711 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW13A6.tmp"
+2024-02-16 16:16:42,712 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW13A6.tmp"
+2024-02-16 16:16:42,713 - INFO : Exit report created.
