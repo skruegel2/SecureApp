@@ -1,28 +1,15 @@
-2024-02-16 16:14:54,841 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW709A.tmp"
-2024-02-16 16:14:54,843 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW709A.tmp"
-2024-02-16 16:14:54,844 - INFO : Exit report created.
-2024-02-16 16:14:54,844 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
-2024-02-16 16:14:54,844 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'wizmode', '--deviceidentifier', 'STM32H743ZI', '--devices', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--guidd', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW7099.tmp', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW709A.tmp', '--language', 'ENG']
-2024-02-16 16:14:54,845 - INFO : App version is 0.0.0.0
-2024-02-16 16:14:54,846 - INFO : Running: "_add_liccheck_and_run"
-2024-02-16 16:14:54,847 - INFO : Reading Devices XML...
-2024-02-16 16:14:55,089 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
-2024-02-16 16:14:55,090 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
-2024-02-16 16:14:55,090 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
-2024-02-16 16:14:55,091 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
-2024-02-16 16:14:55,092 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
-2024-02-16 16:14:55,093 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
-2024-02-16 16:14:55,093 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
-2024-02-16 16:14:55,094 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
-2024-02-16 16:14:55,094 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
-2024-02-16 16:14:55,199 - INFO : Obtained licence
-2024-02-16 16:14:55,200 - INFO : ET.DEVELOPMENT Licence found: False
-2024-02-16 16:14:55,200 - INFO : ET.PROFESSIONAL Licence found: True
-2024-02-16 16:14:55,200 - INFO : ET.PROPLUS Licence found: False
-2024-02-16 16:14:55,202 - INFO : UI Configuration loaded ok!
-2024-02-16 16:14:55,202 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW7099.tmp"
-2024-02-16 16:14:55,202 - INFO : Generating UI Config XML from object model root
-2024-02-16 16:14:55,205 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW7099.tmp"
-2024-02-16 16:14:55,205 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW709A.tmp"
-2024-02-16 16:14:55,207 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW709A.tmp"
-2024-02-16 16:14:55,207 - INFO : Exit report created.
+2024-02-19 10:13:09,025 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:13:09,025 - INFO : Attempt to load security context configuration
+2024-02-19 10:13:09,026 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:13:09,037 - INFO : Validating XML against schema
+2024-02-19 10:13:09,067 - INFO : Verifying all certificates are signed correctly...
+2024-02-19 10:13:09,090 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5EF5.tmp"
+2024-02-19 10:13:09,091 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5EF5.tmp"
+2024-02-19 10:13:09,092 - INFO : Exit report created.
+2024-02-19 10:13:09,094 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-19 10:13:09,094 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'getoptlist', '--typelist', 'SWUPKEYSEL', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\security\\\\test_profile_profile-default.xml', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW5EF5.tmp', '--language', 'ENG']
+2024-02-19 10:13:09,094 - INFO : App version is 0.0.0.0
+2024-02-19 10:13:09,094 - INFO : Running: "_add_liccheck_and_run"
+2024-02-19 10:13:09,095 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5EF5.tmp"
+2024-02-19 10:13:09,096 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5EF5.tmp"
+2024-02-19 10:13:09,096 - INFO : Exit report created.

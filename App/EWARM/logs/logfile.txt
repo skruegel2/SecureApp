@@ -1,136 +1,138 @@
-2024-02-16 16:47:21,524 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\SecureApp\\SecureTest_profile-default.xml
-2024-02-16 16:47:21,525 - INFO : Attempt to load security context configuration
-2024-02-16 16:47:21,525 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\SecureApp\\SecureTest_profile-default.xml
-2024-02-16 16:47:21,538 - INFO : Validating XML against schema
-2024-02-16 16:47:21,571 - INFO : Verifying all certificates are signed correctly...
-2024-02-16 16:47:21,601 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW26C1.tmp"
-2024-02-16 16:47:21,602 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW26C1.tmp"
-2024-02-16 16:47:21,603 - INFO : Exit report created.
-2024-02-16 16:47:21,605 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
-2024-02-16 16:47:21,605 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'provision', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\SecureTest_profile-default.xml', '--devices', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--input', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\Debug\\\\Exe\\\\SecureBoot.srec', '--output', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\Debug\\\\Exe\\\\SecureBoot.provisioned.srec', '--recdir', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\sbm_records', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW26C1.tmp', '--language', 'ENG']
-2024-02-16 16:47:21,606 - INFO : App version is 0.0.0.0
-2024-02-16 16:47:21,606 - INFO : Running: "_add_liccheck_and_run"
-2024-02-16 16:47:21,607 - INFO : Validating supplied arguments...
-2024-02-16 16:47:21,607 - INFO : Input SBM s-rec: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.srec
-2024-02-16 16:47:21,607 - INFO : Output SBM+Keysafe s-rec: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.provisioned.srec
-2024-02-16 16:47:21,608 - INFO : Records folder: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm_records
-2024-02-16 16:47:21,609 - INFO : Reading Devices XML...
-2024-02-16 16:47:21,822 - INFO : Loaded certificates: 
-2024-02-16 16:47:21,829 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
-2024-02-16 16:47:21,829 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
-2024-02-16 16:47:21,830 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
-2024-02-16 16:47:21,831 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
-2024-02-16 16:47:21,832 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
-2024-02-16 16:47:21,832 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
-2024-02-16 16:47:21,833 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
-2024-02-16 16:47:21,833 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
-2024-02-16 16:47:21,833 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
-2024-02-16 16:47:21,839 - INFO : Obtained licence
-2024-02-16 16:47:21,840 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
-2024-02-16 16:47:21,840 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
-2024-02-16 16:47:21,841 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
-2024-02-16 16:47:21,842 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
-2024-02-16 16:47:21,843 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
-2024-02-16 16:47:21,843 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
-2024-02-16 16:47:21,844 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
-2024-02-16 16:47:21,844 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
-2024-02-16 16:47:21,845 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
-2024-02-16 16:47:21,846 - INFO : Obtained licence
-2024-02-16 16:47:21,846 - INFO : Obtained a licence for provision
-2024-02-16 16:47:21,846 - INFO : Product is licensed or no licence required
-2024-02-16 16:47:21,847 - INFO : Reading device parameters for STM32H753ZI
-2024-02-16 16:47:21,847 - INFO : Creating sbmstore...
-2024-02-16 16:47:21,847 - INFO : Updating certificates at provision time, as required
-2024-02-16 16:47:21,848 - INFO : Processing input...
-2024-02-16 16:47:21,871 - INFO : Processed s-record ok: start_addr = 0x08000000,end_addr = 0x0800CEBC, length = 52924(0x0000CEBC), execute at 0x0800CC4D
-2024-02-16 16:47:21,871 - INFO : Unprovisioned srec as blob info:
+2024-02-19 10:37:09,880 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:37:09,880 - INFO : Attempt to load security context configuration
+2024-02-19 10:37:09,881 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:37:09,896 - INFO : Validating XML against schema
+2024-02-19 10:37:09,930 - INFO : Verifying all certificates are signed correctly...
+2024-02-19 10:37:09,960 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5CBD.tmp"
+2024-02-19 10:37:09,962 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5CBD.tmp"
+2024-02-19 10:37:09,962 - INFO : Exit report created.
+2024-02-19 10:37:09,964 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-19 10:37:09,964 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'provision', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\security\\\\test_profile_profile-default.xml', '--devices', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--input', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\Debug\\\\Exe\\\\SecureBoot.srec', '--output', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\Debug\\\\Exe\\\\SecureBoot.provisioned.srec', '--recdir', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\sbm_records', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW5CBD.tmp', '--language', 'ENG']
+2024-02-19 10:37:09,965 - INFO : App version is 0.0.0.0
+2024-02-19 10:37:09,965 - INFO : Running: "_add_liccheck_and_run"
+2024-02-19 10:37:09,966 - INFO : Validating supplied arguments...
+2024-02-19 10:37:09,966 - INFO : Input SBM s-rec: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.srec
+2024-02-19 10:37:09,967 - INFO : Output SBM+Keysafe s-rec: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.provisioned.srec
+2024-02-19 10:37:09,967 - INFO : Records folder: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\sbm_records
+2024-02-19 10:37:09,968 - INFO : Reading Devices XML...
+2024-02-19 10:37:10,303 - INFO : Loaded certificates: 
+2024-02-19 10:37:10,314 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-19 10:37:10,314 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-19 10:37:10,315 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-19 10:37:10,319 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-19 10:37:10,320 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-19 10:37:10,321 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-19 10:37:10,322 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-19 10:37:10,322 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-19 10:37:10,323 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-19 10:37:10,332 - INFO : Obtained licence
+2024-02-19 10:37:10,333 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-19 10:37:10,334 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-19 10:37:10,334 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-19 10:37:10,336 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-19 10:37:10,337 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-19 10:37:10,338 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-19 10:37:10,339 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-19 10:37:10,339 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-19 10:37:10,340 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-19 10:37:10,342 - INFO : Obtained licence
+2024-02-19 10:37:10,342 - INFO : Obtained a licence for provision
+2024-02-19 10:37:10,342 - INFO : Product is licensed or no licence required
+2024-02-19 10:37:10,343 - INFO : Reading device parameters for STM32H753ZI
+2024-02-19 10:37:10,343 - INFO : Creating sbmstore...
+2024-02-19 10:37:10,344 - INFO : Updating certificates at provision time, as required
+2024-02-19 10:37:10,345 - INFO : Processing input...
+2024-02-19 10:37:10,385 - INFO : Processed s-record ok: start_addr = 0x08000000,end_addr = 0x0800F2EF, length = 62191(0x0000F2EF), execute at 0x0800EFFD
+2024-02-19 10:37:10,387 - INFO : Unprovisioned srec as blob info:
 Header:                  "SecureBoot.srec"
-Execution start address: 0x0800cc4d
+Execution start address: 0x0800effd
 Data ranges:
 
-    0x08000000 - 0x080002bf (703 bytes)
-    0x080002c0 - 0x0800cebc (51 KiB)
+    0x08000000 - 0x080002a4 (676 bytes)
+    0x080002c0 - 0x0800f2ef (60.05 KiB)
 
-2024-02-16 16:47:21,872 - INFO : Padding image to 32-bit alignment with b'\xff'
-2024-02-16 16:47:21,872 - INFO : Read s-record as binary blob, length 52924
-2024-02-16 16:47:21,873 - INFO : PDOR: 28 CC 00 00 (52264)
-2024-02-16 16:47:21,873 - INFO : PDOR [28 CC 00 00] at address 08000298
-2024-02-16 16:47:21,873 - INFO : Insert sbm store into image. Capacity=131072, current length=52924, available space=78148
-2024-02-16 16:47:21,874 - INFO : PPD: device_id_padded_for_provisioned_data_hash: [0] '0x' 
-2024-02-16 16:47:21,874 - INFO : Building PSR...
-2024-02-16 16:47:21,877 - INFO : Attempting to decipher raw key from asn1
-2024-02-16 16:47:21,877 - INFO : Private key version is 1
-2024-02-16 16:47:21,878 - INFO : Matched curve 1.2.840.10045.3.1.7 to secp256r1
-2024-02-16 16:47:21,878 - INFO : Skipping compression, first byte of pubkey
-2024-02-16 16:47:21,882 - INFO : 5 slots required...
-2024-02-16 16:47:21,883 - INFO : Offset from PSR to data slot area start is 160
-2024-02-16 16:47:21,883 - INFO : Creating and adding slots...
-2024-02-16 16:47:21,885 - INFO : Attempting to decipher raw key from asn1
-2024-02-16 16:47:21,886 - INFO : Private key version is 1
-2024-02-16 16:47:21,886 - INFO : Matched curve 1.2.840.10045.3.1.7 to secp256r1
-2024-02-16 16:47:21,887 - INFO : Skipping compression, first byte of pubkey
-2024-02-16 16:47:21,887 - INFO : Added an optional field (immediateprivatekey) to a data slot
-2024-02-16 16:47:21,888 - INFO : Added an optional field (immediatepublickey) to a data slot
-2024-02-16 16:47:21,888 - INFO : Created slot header with subtype 0b1000
-2024-02-16 16:47:21,889 - INFO : Padding to dword alignment, length was 0x0000006a (106), now 0x0000006c (108)
-2024-02-16 16:47:21,889 - INFO : Adding slot data for an update key, a public and private key pair (with the private part omitted) at slot index 0
-2024-02-16 16:47:21,889 - INFO : Slot header for this slot [Len 16] = [000-007] 61 8C 00 00 A0 00 00 00
+2024-02-19 10:37:10,388 - INFO : Padding image to 32-bit alignment with b'\xff'
+2024-02-19 10:37:10,388 - INFO : Extending sbm image (62191=0xf2ef bytes) by 1=0x1 bytes
+2024-02-19 10:37:10,389 - INFO : After extending: start=0x08000000 + length=0xf2f0=62192 => end=0x0800f2f0 ceiling=0x08020000
+2024-02-19 10:37:10,390 - INFO : Read s-record as binary blob, length 62192
+2024-02-19 10:37:10,390 - INFO : PDOR: 68 F0 00 00 (61544)
+2024-02-19 10:37:10,391 - INFO : PDOR [68 F0 00 00] at address 08000298
+2024-02-19 10:37:10,392 - INFO : Insert sbm store into image. Capacity=131072, current length=62192, available space=68880
+2024-02-19 10:37:10,392 - INFO : PPD: device_id_padded_for_provisioned_data_hash: [0] '0x' 
+2024-02-19 10:37:10,393 - INFO : Building PSR...
+2024-02-19 10:37:10,397 - INFO : Attempting to decipher raw key from asn1
+2024-02-19 10:37:10,398 - INFO : Private key version is 1
+2024-02-19 10:37:10,399 - INFO : Matched curve 1.2.840.10045.3.1.7 to secp256r1
+2024-02-19 10:37:10,400 - INFO : Skipping compression, first byte of pubkey
+2024-02-19 10:37:10,408 - INFO : 5 slots required...
+2024-02-19 10:37:10,409 - INFO : Offset from PSR to data slot area start is 160
+2024-02-19 10:37:10,410 - INFO : Creating and adding slots...
+2024-02-19 10:37:10,413 - INFO : Attempting to decipher raw key from asn1
+2024-02-19 10:37:10,414 - INFO : Private key version is 1
+2024-02-19 10:37:10,415 - INFO : Matched curve 1.2.840.10045.3.1.7 to secp256r1
+2024-02-19 10:37:10,416 - INFO : Skipping compression, first byte of pubkey
+2024-02-19 10:37:10,417 - INFO : Added an optional field (immediateprivatekey) to a data slot
+2024-02-19 10:37:10,417 - INFO : Added an optional field (immediatepublickey) to a data slot
+2024-02-19 10:37:10,418 - INFO : Created slot header with subtype 0b1000
+2024-02-19 10:37:10,418 - INFO : Padding to dword alignment, length was 0x0000006a (106), now 0x0000006c (108)
+2024-02-19 10:37:10,419 - INFO : Adding slot data for an update key, a public and private key pair (with the private part omitted) at slot index 0
+2024-02-19 10:37:10,420 - INFO : Slot header for this slot [Len 16] = [000-007] 61 8C 00 00 A0 00 00 00
 [008-015] 6A 00 00 00 00 00 00 00
 
-2024-02-16 16:47:21,890 - INFO : SLOT HEADER 8 c61 0 0  160  106 b'000000000000'
-2024-02-16 16:47:21,890 - INFO : Attempting to decipher raw key from asn1
-2024-02-16 16:47:21,891 - INFO : Is EC OID (1.2.840.10045.2.1)
-2024-02-16 16:47:21,891 - INFO : Curve=secp256r1
-2024-02-16 16:47:21,892 - INFO : Skipping compression first byte
-2024-02-16 16:47:21,892 - INFO : Added an optional field (immediatepublickey) to a data slot
-2024-02-16 16:47:21,892 - INFO : Created slot header with subtype 0b1000
-2024-02-16 16:47:21,893 - INFO : Padding to dword alignment, length was 0x00000046 (70), now 0x00000048 (72)
-2024-02-16 16:47:21,893 - INFO : Adding slot data for an update key, a public and private key pair (with the private part omitted) at slot index 1
-2024-02-16 16:47:21,893 - INFO : Slot header for this slot [Len 16] = [000-007] 61 84 00 00 0C 01 00 00
+2024-02-19 10:37:10,420 - INFO : SLOT HEADER 8 c61 0 0  160  106 b'000000000000'
+2024-02-19 10:37:10,421 - INFO : Attempting to decipher raw key from asn1
+2024-02-19 10:37:10,423 - INFO : Is EC OID (1.2.840.10045.2.1)
+2024-02-19 10:37:10,424 - INFO : Curve=secp256r1
+2024-02-19 10:37:10,425 - INFO : Skipping compression first byte
+2024-02-19 10:37:10,426 - INFO : Added an optional field (immediatepublickey) to a data slot
+2024-02-19 10:37:10,426 - INFO : Created slot header with subtype 0b1000
+2024-02-19 10:37:10,427 - INFO : Padding to dword alignment, length was 0x00000046 (70), now 0x00000048 (72)
+2024-02-19 10:37:10,428 - INFO : Adding slot data for an update key, a public and private key pair (with the private part omitted) at slot index 1
+2024-02-19 10:37:10,428 - INFO : Slot header for this slot [Len 16] = [000-007] 61 84 00 00 0C 01 00 00
 [008-015] 46 00 01 00 00 00 00 00
 
-2024-02-16 16:47:21,894 - INFO : SLOT HEADER 8 461 0 0  268   70 b'010000000000'
-2024-02-16 16:47:21,894 - INFO : Attempting to decipher raw key from asn1
-2024-02-16 16:47:21,895 - INFO : Is EC OID (1.2.840.10045.2.1)
-2024-02-16 16:47:21,895 - INFO : Curve=secp256r1
-2024-02-16 16:47:21,896 - INFO : Skipping compression first byte
-2024-02-16 16:47:21,896 - INFO : Added an optional field (immediatepublickey) to a data slot
-2024-02-16 16:47:21,896 - INFO : Created slot header with subtype 0b1000
-2024-02-16 16:47:21,897 - INFO : Padding to dword alignment, length was 0x00000046 (70), now 0x00000048 (72)
-2024-02-16 16:47:21,897 - INFO : Adding slot data for an update key, a public and private key pair (with the private part omitted) at slot index 2
-2024-02-16 16:47:21,898 - INFO : Slot header for this slot [Len 16] = [000-007] 61 84 00 00 54 01 00 00
+2024-02-19 10:37:10,429 - INFO : SLOT HEADER 8 461 0 0  268   70 b'010000000000'
+2024-02-19 10:37:10,429 - INFO : Attempting to decipher raw key from asn1
+2024-02-19 10:37:10,431 - INFO : Is EC OID (1.2.840.10045.2.1)
+2024-02-19 10:37:10,431 - INFO : Curve=secp256r1
+2024-02-19 10:37:10,432 - INFO : Skipping compression first byte
+2024-02-19 10:37:10,432 - INFO : Added an optional field (immediatepublickey) to a data slot
+2024-02-19 10:37:10,433 - INFO : Created slot header with subtype 0b1000
+2024-02-19 10:37:10,433 - INFO : Padding to dword alignment, length was 0x00000046 (70), now 0x00000048 (72)
+2024-02-19 10:37:10,434 - INFO : Adding slot data for an update key, a public and private key pair (with the private part omitted) at slot index 2
+2024-02-19 10:37:10,435 - INFO : Slot header for this slot [Len 16] = [000-007] 61 84 00 00 54 01 00 00
 [008-015] 46 00 0F 00 00 00 00 00
 
-2024-02-16 16:47:21,898 - INFO : SLOT HEADER 8 461 0 0  340   70 b'0f0000000000'
-2024-02-16 16:47:21,898 - INFO : Padding to dword alignment, length was 0x00000016 (22), now 0x00000018 (24)
-2024-02-16 16:47:21,899 - INFO : Adding slot data for Provisioned Information Summary at slot index 3
-2024-02-16 16:47:21,899 - INFO : Slot header for this slot [Len 16] = [000-007] 00 F0 00 00 9C 01 00 00
+2024-02-19 10:37:10,435 - INFO : SLOT HEADER 8 461 0 0  340   70 b'0f0000000000'
+2024-02-19 10:37:10,436 - INFO : Padding to dword alignment, length was 0x00000016 (22), now 0x00000018 (24)
+2024-02-19 10:37:10,436 - INFO : Adding slot data for Provisioned Information Summary at slot index 3
+2024-02-19 10:37:10,437 - INFO : Slot header for this slot [Len 16] = [000-007] 00 F0 00 00 9C 01 00 00
 [008-015] 16 00 00 00 00 00 00 00
 
-2024-02-16 16:47:21,899 - INFO : SLOT HEADER f   0 0 0  412   22 b'000000000000'
-2024-02-16 16:47:21,900 - INFO : Padding to dword alignment, length was 0x00000062 (98), now 0x00000064 (100)
-2024-02-16 16:47:21,900 - INFO : Adding slot data for Provisioned Information Details at slot index 4
-2024-02-16 16:47:21,900 - INFO : Slot header for this slot [Len 16] = [000-007] 01 F0 00 00 B4 01 00 00
+2024-02-19 10:37:10,438 - INFO : SLOT HEADER f   0 0 0  412   22 b'000000000000'
+2024-02-19 10:37:10,438 - INFO : Padding to dword alignment, length was 0x00000062 (98), now 0x00000064 (100)
+2024-02-19 10:37:10,439 - INFO : Adding slot data for Provisioned Information Details at slot index 4
+2024-02-19 10:37:10,440 - INFO : Slot header for this slot [Len 16] = [000-007] 01 F0 00 00 B4 01 00 00
 [008-015] 62 00 00 00 00 00 00 00
 
-2024-02-16 16:47:21,901 - INFO : SLOT HEADER f   1 0 0  436   98 b'000000000000'
-2024-02-16 16:47:21,902 - INFO : Building all headers and slot data...
-2024-02-16 16:47:21,903 - INFO : Extending sbm image (52924=0xcebc bytes) by 4=0x4 bytes
-2024-02-16 16:47:21,903 - INFO : After extending: start=0x08000000 + length=0xcec0=52928 => end=0x0800cec0 ceiling=0x08020000
-2024-02-16 16:47:21,904 - INFO : Extending sbm image (52928=0xcec0 bytes) by 536=0x218 bytes
-2024-02-16 16:47:21,904 - INFO : After extending: start=0x08000000 + length=0xd0d8=53464 => end=0x0800d0d8 ceiling=0x08020000
-2024-02-16 16:47:21,904 - INFO : S-REC layout Header:                  "SecureBoot.srec"
-Execution start address: 0x0800cc4d
+2024-02-19 10:37:10,440 - INFO : SLOT HEADER f   1 0 0  436   98 b'000000000000'
+2024-02-19 10:37:10,443 - INFO : Building all headers and slot data...
+2024-02-19 10:37:10,445 - INFO : Extending sbm image (62192=0xf2f0 bytes) by 16=0x10 bytes
+2024-02-19 10:37:10,446 - INFO : After extending: start=0x08000000 + length=0xf300=62208 => end=0x0800f300 ceiling=0x08020000
+2024-02-19 10:37:10,447 - INFO : Extending sbm image (62208=0xf300 bytes) by 536=0x218 bytes
+2024-02-19 10:37:10,447 - INFO : After extending: start=0x08000000 + length=0xf518=62744 => end=0x0800f518 ceiling=0x08020000
+2024-02-19 10:37:10,448 - INFO : S-REC layout Header:                  "SecureBoot.srec"
+Execution start address: 0x0800effd
 Data ranges:
 
-    0x08000000 - 0x080002bf (703 bytes)
-    0x080002c0 - 0x0800d0d8 (51.52 KiB)
+    0x08000000 - 0x080002a4 (676 bytes)
+    0x080002c0 - 0x0800f518 (60.59 KiB)
 
-2024-02-16 16:47:21,925 - INFO : Converting input binary+SBM of length 53464 to SREC...
-2024-02-16 16:47:21,926 - INFO : Saving output to C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.provisioned.srec...
-2024-02-16 16:47:21,949 - INFO : Successfully wrote 157123 bytes to file C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.provisioned.srec
-2024-02-16 16:47:21,950 - WARNING : WARNING : Device provisioned with development keys. Not advised for production / operational use.
-2024-02-16 16:47:21,950 - INFO : Generating records as written to SBM...
-2024-02-16 16:47:22,008 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW26C1.tmp"
-2024-02-16 16:47:22,009 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW26C1.tmp"
-2024-02-16 16:47:22,010 - INFO : Exit report created.
+2024-02-19 10:37:10,488 - INFO : Converting input binary+SBM of length 62744 to SREC...
+2024-02-19 10:37:10,489 - INFO : Saving output to C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.provisioned.srec...
+2024-02-19 10:37:10,519 - INFO : Successfully wrote 184314 bytes to file C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\Debug\Exe\SecureBoot.provisioned.srec
+2024-02-19 10:37:10,520 - WARNING : WARNING : Device provisioned with development keys. Not advised for production / operational use.
+2024-02-19 10:37:10,521 - INFO : Generating records as written to SBM...
+2024-02-19 10:37:10,597 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5CBD.tmp"
+2024-02-19 10:37:10,599 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW5CBD.tmp"
+2024-02-19 10:37:10,599 - INFO : Exit report created.

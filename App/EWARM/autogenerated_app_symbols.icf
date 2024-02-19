@@ -1,0 +1,12 @@
+
+/* *** THIS IS AN AUTO-GENERATED FILE - DO NOT EDIT (OR MOVE) THIS FILE: YOUR CHANGES WILL BE OVERWRITTEN *** */
+
+/* APPLICATION SYMBOLS - FLASH */
+define exported symbol STZ_ADDR_EXECUTABLE_START           = 0x8040000;
+define exported symbol STZ_ADDR_EXECUTABLE_END             = 0x80fffff;
+define exported symbol STZ_ADDR_SECAPI_ACCESS_WINDOW_START = 0x80002c0;
+define exported symbol STZ_ADDR_SECAPI_ACCESS_WINDOW_END   = 0x80002c3;
+
+/* APPLICATION SYMBOLS - RAM */
+define exported symbol STZ_ADDR_APPLICATION_RAM_START      = 0x20000000;
+define exported symbol STZ_ADDR_APPLICATION_RAM_END        = 0x2001f7ff;

@@ -1,13 +1,36 @@
-2024-02-16 16:19:33,091 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWB08E.tmp"
-2024-02-16 16:19:33,092 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWB08E.tmp"
-2024-02-16 16:19:33,093 - INFO : Exit report created.
-2024-02-16 16:19:33,093 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
-2024-02-16 16:19:33,093 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'checkswvalidity', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\SecureTest_profile-default.xml', '--output', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWB08F.tmp', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWB08E.tmp', '--language', 'ENG']
-2024-02-16 16:19:33,094 - INFO : App version is 0.0.0.0
-2024-02-16 16:19:33,094 - INFO : Running: "_add_liccheck_and_run"
-2024-02-16 16:19:33,096 - INFO : Secworld candidate: C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_profile-default.xml
-2024-02-16 16:19:33,109 - INFO : Validating XML against schema
-2024-02-16 16:19:33,149 - INFO : Verifying all certificates are signed correctly...
-2024-02-16 16:19:33,177 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWB08E.tmp"
-2024-02-16 16:19:33,179 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWB08E.tmp"
-2024-02-16 16:19:33,180 - INFO : Exit report created.
+2024-02-19 10:19:00,442 - INFO : Loading Security Context...
+2024-02-19 10:19:00,508 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWBBC3.tmp"
+2024-02-19 10:19:00,509 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWBBC3.tmp"
+2024-02-19 10:19:00,510 - INFO : Exit report created.
+2024-02-19 10:19:00,510 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-19 10:19:00,511 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'getcaps', '--projecttype', 'SBM', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\security\\\\test_profile_profile-default.xml', '--deviceidentifier', 'STM32H743ZI', '--deviceproperties', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWBBC3.tmp', '--language', 'ENG']
+2024-02-19 10:19:00,512 - INFO : App version is 0.0.0.0
+2024-02-19 10:19:00,513 - INFO : Running: "_add_liccheck_and_run"
+2024-02-19 10:19:00,518 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-19 10:19:00,519 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-19 10:19:00,520 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-19 10:19:00,521 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-19 10:19:00,522 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-19 10:19:00,523 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-19 10:19:00,523 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-19 10:19:00,523 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-19 10:19:00,524 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-19 10:19:00,525 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-19 10:19:00,525 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-19 10:19:00,526 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-19 10:19:00,527 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-19 10:19:00,528 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-19 10:19:00,528 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-19 10:19:00,529 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-19 10:19:00,529 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-19 10:19:00,530 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-19 10:19:00,530 - INFO : Obtained a licence for getcaps
+2024-02-19 10:19:00,530 - INFO : Product is licensed or no licence required
+2024-02-19 10:19:00,531 - INFO : Project type is SBM
+2024-02-19 10:19:00,531 - INFO : Device type is STM32H743ZI
+2024-02-19 10:19:00,531 - INFO : Load capabilities...
+2024-02-19 10:19:00,532 - INFO : Retrieve capabilities...
+2024-02-19 10:19:00,532 - INFO : Loaded capabilities ok!
+2024-02-19 10:19:02,138 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWBBC3.tmp"
+2024-02-19 10:19:02,139 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWBBC3.tmp"
+2024-02-19 10:19:02,140 - INFO : Exit report created.

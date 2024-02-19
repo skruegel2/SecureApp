@@ -138,7 +138,7 @@
       <updateMechanism>FULL</updateMechanism>
       <nrOfGroupUpdateKeys>1</nrOfGroupUpdateKeys>
       <nrOfDeviceUpdateKeys>0</nrOfDeviceUpdateKeys>
-      <sbmVersionCheck>GTR_EQU</sbmVersionCheck>
+      <sbmVersionCheck>DISABLED</sbmVersionCheck>
     </updateSettings>
     <updateKeysList>
       <groupKeysList>

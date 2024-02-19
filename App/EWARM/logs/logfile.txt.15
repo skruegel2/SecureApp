@@ -1,13 +1,14 @@
-2024-02-16 16:16:36,490 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWFDB9.tmp"
-2024-02-16 16:16:36,492 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWFDB9.tmp"
-2024-02-16 16:16:36,493 - INFO : Exit report created.
-2024-02-16 16:16:36,493 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
-2024-02-16 16:16:36,493 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'checkswvalidity', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\SecureTest_profile-default.xml', '--output', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWFDBA.tmp', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWFDB9.tmp', '--language', 'ENG']
-2024-02-16 16:16:36,494 - INFO : App version is 0.0.0.0
-2024-02-16 16:16:36,495 - INFO : Running: "_add_liccheck_and_run"
-2024-02-16 16:16:36,495 - INFO : Secworld candidate: C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_profile-default.xml
-2024-02-16 16:16:36,509 - INFO : Validating XML against schema
-2024-02-16 16:16:36,548 - INFO : Verifying all certificates are signed correctly...
-2024-02-16 16:16:36,575 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWFDB9.tmp"
-2024-02-16 16:16:36,577 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWFDB9.tmp"
-2024-02-16 16:16:36,578 - INFO : Exit report created.
+2024-02-19 10:15:51,711 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWDAE6.tmp"
+2024-02-19 10:15:51,713 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWDAE6.tmp"
+2024-02-19 10:15:51,714 - INFO : Exit report created.
+2024-02-19 10:15:51,714 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-19 10:15:51,714 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'appdebuggerargs', '--deviceidentifier', 'STM32H743ZI', '--devices', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--output', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWDAE7.tmp', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWDAE6.tmp', '--language', 'ENG']
+2024-02-19 10:15:51,716 - INFO : App version is 0.0.0.0
+2024-02-19 10:15:51,717 - INFO : Running: "_add_liccheck_and_run"
+2024-02-19 10:15:51,718 - INFO : Reading Devices XML...
+2024-02-19 10:15:51,919 - INFO : Reading EW application debugger arguments for device STM32H753ZI...
+2024-02-19 10:15:51,920 - INFO : Application debugger arguments: {'arg': {'@xmlns:py': 'http://codespeak.net/lxml/objectify/pytype', '@py:pytype': 'str', '#text': '--drv_vector_table_base=0x08000000'}}
+2024-02-19 10:15:51,921 - INFO : Successfully wrote XML File at: "C:\Users\skruegel\AppData\Local\Temp\EWDAE7.tmp"
+2024-02-19 10:15:51,922 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWDAE6.tmp"
+2024-02-19 10:15:51,923 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWDAE6.tmp"
+2024-02-19 10:15:51,923 - INFO : Exit report created.

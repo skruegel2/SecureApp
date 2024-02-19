@@ -1,13 +1,55 @@
-2024-02-16 16:16:39,351 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW898.tmp"
-2024-02-16 16:16:39,353 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW898.tmp"
-2024-02-16 16:16:39,354 - INFO : Exit report created.
-2024-02-16 16:16:39,354 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
-2024-02-16 16:16:39,355 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'checkswvalidity', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\SecureTest_profile-default.xml', '--output', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW899.tmp', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW898.tmp', '--language', 'ENG']
-2024-02-16 16:16:39,357 - INFO : App version is 0.0.0.0
-2024-02-16 16:16:39,357 - INFO : Running: "_add_liccheck_and_run"
-2024-02-16 16:16:39,357 - INFO : Secworld candidate: C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_profile-default.xml
-2024-02-16 16:16:39,371 - INFO : Validating XML against schema
-2024-02-16 16:16:39,408 - INFO : Verifying all certificates are signed correctly...
-2024-02-16 16:16:39,437 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW898.tmp"
-2024-02-16 16:16:39,439 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW898.tmp"
-2024-02-16 16:16:39,440 - INFO : Exit report created.
+2024-02-19 10:16:09,959 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:16:09,960 - INFO : Attempt to load security context configuration
+2024-02-19 10:16:09,960 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:16:09,972 - INFO : Validating XML against schema
+2024-02-19 10:16:10,003 - INFO : Verifying all certificates are signed correctly...
+2024-02-19 10:16:10,031 - INFO : SWUP Version: 1.0.0
+2024-02-19 10:16:10,032 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW21CD.tmp"
+2024-02-19 10:16:10,034 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW21CD.tmp"
+2024-02-19 10:16:10,036 - INFO : Exit report created.
+2024-02-19 10:16:10,037 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-19 10:16:10,038 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'master', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\security\\\\test_profile_profile-default.xml', '--input', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\App\\\\Exe\\\\App.srec', '--output', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\App\\\\Exe\\\\App.mastered.srec', '--output-diei', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\App\\\\Exe\\\\App.directexec.srec', '--output-stztef', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\App\\\\Exe\\\\App.stztef', '--version', '1.0.0', '--device', 'STM32H743ZI', '--updatekeytype', 'NAMED', '--keysel', 'Group Key ID-0001', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EW21CD.tmp', '--language', 'ENG']
+2024-02-19 10:16:10,038 - INFO : App version is 0.0.0.0
+2024-02-19 10:16:10,039 - INFO : Running: "_add_liccheck_and_run"
+2024-02-19 10:16:10,045 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-19 10:16:10,045 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-19 10:16:10,046 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-19 10:16:10,047 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-19 10:16:10,048 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-19 10:16:10,048 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-19 10:16:10,049 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-19 10:16:10,049 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-19 10:16:10,050 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-19 10:16:10,151 - INFO : Obtained licence
+2024-02-19 10:16:10,153 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
+2024-02-19 10:16:10,153 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
+2024-02-19 10:16:10,153 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
+2024-02-19 10:16:10,154 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
+2024-02-19 10:16:10,155 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
+2024-02-19 10:16:10,156 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
+2024-02-19 10:16:10,156 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
+2024-02-19 10:16:10,156 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
+2024-02-19 10:16:10,157 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
+2024-02-19 10:16:10,158 - INFO : Obtained licence
+2024-02-19 10:16:10,158 - INFO : Obtained a licence for master
+2024-02-19 10:16:10,158 - INFO : Product is licensed or no licence required
+2024-02-19 10:16:10,158 - INFO : Input application s-rec: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\App\Exe\App.srec
+2024-02-19 10:16:10,159 - INFO : Output SWUP S-Rec format: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\App\Exe\App.mastered.srec
+2024-02-19 10:16:10,159 - INFO : Module Id: 0
+2024-02-19 10:16:10,159 - INFO : Mastering for device: STM32H743ZI
+2024-02-19 10:16:10,159 - INFO : Reading device parameters for STM32H753ZI...
+2024-02-19 10:16:10,160 - INFO : Device name from command line is STM32H743ZI...
+2024-02-19 10:16:10,171 - INFO : Check that the firmware image (0x4948 bytes) + the module footer (0x2c bytes) fits in the exec slot (0xc0000 bytes)...
+2024-02-19 10:16:10,171 - INFO : Firmware image fits in the exec slot!
+2024-02-19 10:16:10,182 - INFO : Is EC OID (1.2.840.10045.2.1)
+2024-02-19 10:16:10,183 - INFO : Curve=secp256r1
+2024-02-19 10:16:10,184 - INFO : Is EC OID (1.2.840.10045.2.1)
+2024-02-19 10:16:10,184 - INFO : Curve=secp256r1
+2024-02-19 10:16:10,204 - INFO : Successfully wrote 60387 bytes to file C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\App\Exe\Internal Flash_0.srec
+2024-02-19 10:16:10,209 - INFO : Writing STZTEF file: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\App\Exe\App.stztef
+2024-02-19 10:16:10,214 - INFO : StzTef: written 56428 bytes
+2024-02-19 10:16:10,215 - INFO : Writing DIEI file: C:\ST\IARBoot\IARBoot8-42\SecureApp\App\EWARM\App\Exe\App.directexec.srec
+2024-02-19 10:16:10,228 - INFO : Check that the firmware image (0x4948 bytes) + the module footer (0x2c bytes) fits in the exec slot (0xc0000 bytes)...
+2024-02-19 10:16:10,232 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EW21CD.tmp"
+2024-02-19 10:16:10,234 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EW21CD.tmp"
+2024-02-19 10:16:10,234 - INFO : Exit report created.

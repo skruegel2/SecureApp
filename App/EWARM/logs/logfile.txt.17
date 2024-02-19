@@ -1,47 +1,17 @@
-2024-02-16 16:16:13,277 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWA276.tmp"
-2024-02-16 16:16:13,279 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWA276.tmp"
-2024-02-16 16:16:13,279 - INFO : Exit report created.
-2024-02-16 16:16:13,279 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
-2024-02-16 16:16:13,280 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'secwgen', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp', '--partial', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWA277.tmp', '--devices', 'C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\devices_config.xml', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWA276.tmp', '--language', 'ENG']
-2024-02-16 16:16:13,282 - INFO : App version is 0.0.0.0
-2024-02-16 16:16:13,282 - INFO : Running: "_add_liccheck_and_run"
-2024-02-16 16:16:13,282 - INFO : Reading Partial Config XML...
-2024-02-16 16:16:13,296 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
-2024-02-16 16:16:13,297 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
-2024-02-16 16:16:13,297 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
-2024-02-16 16:16:13,298 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
-2024-02-16 16:16:13,299 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
-2024-02-16 16:16:13,300 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
-2024-02-16 16:16:13,300 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
-2024-02-16 16:16:13,301 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
-2024-02-16 16:16:13,301 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
-2024-02-16 16:16:13,307 - INFO : Obtained licence
-2024-02-16 16:16:13,308 - INFO : Licence not available: Name = 'ET.PROPLUS', Version = '1.00'
-2024-02-16 16:16:13,308 - INFO : Licence not available: Name = 'ET.ARM.ET', Version = '1.07'
-2024-02-16 16:16:13,309 - INFO : Licence not available: Name = 'ET.RX.ET', Version = '1.07'
-2024-02-16 16:16:13,310 - INFO : Licence not available: Name = 'ET.PROFESSIONAL', Version = '1.00'
-2024-02-16 16:16:13,311 - INFO : Licence potentially available: ARM.EW.CTRUST, 1.18
-2024-02-16 16:16:13,311 - INFO : Licence not available: Name = 'ARMFS850.EW.CTRUST', Version = '1.00'
-2024-02-16 16:16:13,312 - INFO : Licence not available: Name = 'ARMFS920.EW.CTRUST', Version = '1.00'
-2024-02-16 16:16:13,312 - INFO : Licence not available: Name = 'RX.EW.CTRUST', Version = '1.13'
-2024-02-16 16:16:13,312 - INFO : Licence not available: Name = 'RXFS414.EW.CTRUST', Version = '1.00'
-2024-02-16 16:16:13,314 - INFO : Obtained licence
-2024-02-16 16:16:13,314 - INFO : Obtained a licence for secwgen
-2024-02-16 16:16:13,314 - INFO : Product is licensed or no licence required
-2024-02-16 16:16:13,315 - INFO : Reading Devices XML...
-2024-02-16 16:16:13,557 - INFO : Construct full template for security context SecureTest, device STM32H753ZI: Exec addresses = 0x08040000 to 0x080FFFFF, Update = 0x08100000 to 0x081DFFFF, Word size = 32
-2024-02-16 16:16:13,557 - INFO : Attaching docview to newly stored certificate...
-2024-02-16 16:16:13,562 - INFO : EccKeyPair.SaveToFiles(private_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\ID-0001_group_update_private_key_file.pem', public_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\ID-0001_group_update_public_key_file.pem')
-2024-02-16 16:16:13,585 - INFO : EccKeyPair.SaveToFiles(private_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\oem_validation_private_key_file.pem', public_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\oem_validation_public_key_file.pem')
-2024-02-16 16:16:13,608 - INFO : EccKeyPair.SaveToFiles(private_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\oem_transportation_private_key_file.pem', public_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\oem_transportation_public_key_file.pem')
-2024-02-16 16:16:13,629 - INFO : EccKeyPair.SaveToFiles(private_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\powerup_integrity_private_key_file.pem', public_key_path='C:\ST\IARBoot\IARBoot8-42\SecureApp\profile-default\powerup_integrity_public_key_file.pem')
-2024-02-16 16:16:13,708 - INFO : Writing XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_template.xml"
-2024-02-16 16:16:13,715 - INFO : Successfully wrote XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_template.xml"
-2024-02-16 16:16:13,716 - INFO : Saving profile default...
-2024-02-16 16:16:13,717 - INFO : Writing XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_profile-default.xml"
-2024-02-16 16:16:13,719 - INFO : Successfully wrote XML file: "C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_profile-default.xml"
-2024-02-16 16:16:13,720 - INFO : About to validate C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_template.xml
-2024-02-16 16:16:13,727 - INFO : Validating C:\ST\IARBoot\IARBoot8-42\SecureApp\SecureTest_template.xml against schema
-2024-02-16 16:16:13,729 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWA276.tmp"
-2024-02-16 16:16:13,731 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWA276.tmp"
-2024-02-16 16:16:13,732 - INFO : Exit report created.
+2024-02-19 10:15:46,931 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:15:46,932 - INFO : Attempt to load security context configuration
+2024-02-19 10:15:46,932 - INFO : Secworld candidate: C:\\ST\\IARBoot\\IARBoot8-42\\security\\test_profile_profile-default.xml
+2024-02-19 10:15:46,944 - INFO : Validating XML against schema
+2024-02-19 10:15:46,973 - INFO : Verifying all certificates are signed correctly...
+2024-02-19 10:15:46,995 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWC885.tmp"
+2024-02-19 10:15:46,997 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWC885.tmp"
+2024-02-19 10:15:46,997 - INFO : Exit report created.
+2024-02-19 10:15:46,999 - INFO : ***********Embedded Trust Security Manager Starting - (c) Secure Thingz Limited ***********
+2024-02-19 10:15:47,000 - INFO : Command line: ['C:\\\\Program Files (x86)\\\\IAR Systems\\\\Embedded Workbench 8.4\\\\arm\\\\stz\\\\stzsgm.exe', 'vercheck', '--config', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\security\\\\test_profile_profile-default.xml', '--version', '1.0.0', '--logfile', 'C:\\\\ST\\\\IARBoot\\\\IARBoot8-42\\\\SecureApp\\\\App\\\\EWARM\\\\logs\\\\logfile.txt', '--exitreport', 'C:\\\\Users\\\\skruegel\\\\AppData\\\\Local\\\\Temp\\\\EWC885.tmp', '--language', 'ENG']
+2024-02-19 10:15:47,000 - INFO : App version is 0.0.0.0
+2024-02-19 10:15:47,000 - INFO : Running: "_add_liccheck_and_run"
+2024-02-19 10:15:47,000 - INFO : Version to check: 1.0.0
+2024-02-19 10:15:47,001 - INFO : Checking version
+2024-02-19 10:15:47,001 - INFO : Writing XML file: "C:\Users\skruegel\AppData\Local\Temp\EWC885.tmp"
+2024-02-19 10:15:47,002 - INFO : Successfully wrote XML file: "C:\Users\skruegel\AppData\Local\Temp\EWC885.tmp"
+2024-02-19 10:15:47,003 - INFO : Exit report created.

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <iarProjectConnection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.8" name="" oneShot="false" xsi:noNamespaceSchemaLocation="IarProjectConnection_1.x.xsd">
   <defines>
-    <define>SBM_VERSION_CHECKING=2</define>
+    <define>SBM_VERSION_CHECKING=0</define>
     <define>SBM_BOOT_STATUS_TRACKING=0</define>
     <define>SBM_UPDATE_LOGGING=0</define>
     <define>SBM_FAIL_LAUNCH_API=0</define>
@@ -9,11 +9,11 @@
     <define>SBM_RECORD_BOOT_TIME=0</define>
     <define>SBM_REPORT_SBM_SIZES=0</define>
     <define>SBM_EXTENDED_SWUP_ERRORS=0</define>
-    <define>SBM_LOG_VERBOSITY=0</define>
-    <define>SBM_ENABLE_LOG_BOOT_STATUS=0</define>
+    <define>SBM_LOG_VERBOSITY=2</define>
+    <define>SBM_ENABLE_LOG_BOOT_STATUS=1</define>
     <define>SBM_ENABLE_LOG_BOOT_TIME=0</define>
-    <define>SBM_ENABLE_LOG_SIZES=0</define>
-    <define>SBM_ENABLE_LOG_UPDATE_STATUS=0</define>
+    <define>SBM_ENABLE_LOG_SIZES=1</define>
+    <define>SBM_ENABLE_LOG_UPDATE_STATUS=1</define>
     <define>SBM_ENABLE_LOG_DATASTORE=0</define>
     <define>SBM_ENABLE_LOG_OEM=0</define>
     <define>SBM_SUPPORT_ENCRYPTED_UPDATES=1</define>
@@ -26,7 +26,7 @@
     <define>SBM_SECAPI_ACCESS_WINDOW_START=134218432</define>
     <define>SBM_SECAPI_ACCESS_WINDOW_END=134218435</define>
     <define>SBM_PPD_ENABLE=0</define>
-    <define>SBM_PPD_4BYTE_SECURITY_CONTEXT_SEED="\x95\x96\x63\x6e"</define>
+    <define>SBM_PPD_4BYTE_SECURITY_CONTEXT_SEED="\xae\xa2\x32\xac"</define>
     <define>SBM_PROVISIONED_DATA_ENCRYPTED=0</define>
     <define>SBM_TZ_FIREWALL_ACTIVE=0</define>
     <define>SBM_FORWARD_HARDFAULTS=0</define>
@@ -45,7 +45,7 @@
     <define>SBM_INCLUDE_CONSOLE=1</define>
   </defines>
   <asmDefines>
-    <define>SBM_VERSION_CHECKING=2</define>
+    <define>SBM_VERSION_CHECKING=0</define>
     <define>SBM_BOOT_STATUS_TRACKING=0</define>
     <define>SBM_UPDATE_LOGGING=0</define>
     <define>SBM_FAIL_LAUNCH_API=0</define>
@@ -53,11 +53,11 @@
     <define>SBM_RECORD_BOOT_TIME=0</define>
     <define>SBM_REPORT_SBM_SIZES=0</define>
     <define>SBM_EXTENDED_SWUP_ERRORS=0</define>
-    <define>SBM_LOG_VERBOSITY=0</define>
-    <define>SBM_ENABLE_LOG_BOOT_STATUS=0</define>
+    <define>SBM_LOG_VERBOSITY=2</define>
+    <define>SBM_ENABLE_LOG_BOOT_STATUS=1</define>
     <define>SBM_ENABLE_LOG_BOOT_TIME=0</define>
-    <define>SBM_ENABLE_LOG_SIZES=0</define>
-    <define>SBM_ENABLE_LOG_UPDATE_STATUS=0</define>
+    <define>SBM_ENABLE_LOG_SIZES=1</define>
+    <define>SBM_ENABLE_LOG_UPDATE_STATUS=1</define>
     <define>SBM_ENABLE_LOG_DATASTORE=0</define>
     <define>SBM_ENABLE_LOG_OEM=0</define>
     <define>SBM_SUPPORT_ENCRYPTED_UPDATES=1</define>
@@ -70,7 +70,7 @@
     <define>SBM_SECAPI_ACCESS_WINDOW_START=134218432</define>
     <define>SBM_SECAPI_ACCESS_WINDOW_END=134218435</define>
     <define>SBM_PPD_ENABLE=0</define>
-    <define>SBM_PPD_4BYTE_SECURITY_CONTEXT_SEED="\x95\x96\x63\x6e"</define>
+    <define>SBM_PPD_4BYTE_SECURITY_CONTEXT_SEED="\xae\xa2\x32\xac"</define>
     <define>SBM_PROVISIONED_DATA_ENCRYPTED=0</define>
     <define>SBM_TZ_FIREWALL_ACTIVE=0</define>
     <define>SBM_FORWARD_HARDFAULTS=0</define>
